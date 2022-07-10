@@ -66,14 +66,16 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    
     }
 
 .hero-form {
+    border-radius: 25px;
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;

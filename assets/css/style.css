@@ -6,11 +6,12 @@
 
 .section-title {
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    color: #024e76;   
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     }
 
   .primary-border {
@@ -20,6 +21,7 @@
   .secondary-border {
     border-color: #39a6b2;
     }
+
 /* apply styles to <header> */
 header {    
     padding: 20px 35px;
@@ -48,28 +50,29 @@ header a {
     text-decoration: none;
     }
 
-header nav {
-    
-    margin: 7px 0;
-    }
+header nav {  
+  margin: 7px 0;
+  }
 
-    header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-    }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  }
 
-    header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 1.55vw;
-    }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
 
-section {
+  section {
     padding: 60px;
-    }
+  }
+
+
 
 /* Hero Style Start */
 .hero {
@@ -152,13 +155,13 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
     }
 
 /* WHAT WE DO ENDS */
 
 /* WHAT YOU DO STARTS */
 .steps {
-    text-align: center;
     background: #fce138;
     }
 
@@ -190,10 +193,6 @@ section {
 
 /* TRAINERS START */
 
-.trainers {
-    text-align: center;
-  }
-  
   .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -236,6 +235,10 @@ section {
   .text-right {
     text-align: right;
   }
+
+  .flex-row {
+    display: flex;
+  }
   
 
 /* TRAINERS ENDS */
@@ -243,7 +246,6 @@ section {
 /* CONTACT STARTS*/
 
 .contact {
-    text-align: center;
     background: #024e76;
   }
   

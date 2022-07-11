@@ -167,6 +167,9 @@ header nav ul {
 
 .step-info {
   flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .steps h3 {
@@ -187,6 +190,10 @@ header nav ul {
     justify-content: space-between;
 }
 
+.step-text {
+  flex: 12;
+}
+
 .step-text p {
     color: #36a6b2;
     font-size: 18px;
@@ -196,6 +203,12 @@ header nav ul {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+  max-width: 100%;
 }
 
 /* WHAT YOU DO ENDS */
